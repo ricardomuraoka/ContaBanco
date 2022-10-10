@@ -3,10 +3,14 @@ package conta;
 import java.util.Scanner;
 
 public class Main {
+    /**
+     * Programa principal
+     * @param args
+     */
     public static void main(String[] args) {
         int numero = 0;
-        String agencia = "";
-        String cliente = "";
+        String agencia;
+        String cliente;
         double saldo = 0.00;
 
         Scanner in = new Scanner(System.in);
